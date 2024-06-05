@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MoviesAppTest" parallel="tests" thread-count="10">
+
+    <listeners>
+        <listener class-name="utilities.MovieAppTestReports"/>
+    </listeners>
+    <test name="LoginPageTest">
+       <classes>
+           <class name="com.nextWave.MoviesAppTestCases.LoginPageTest"/>
+       </classes>
+    </test>
+    <test name="HomePageTest">
+        <classes>
+            <class name="com.nextWave.MoviesAppTestCases.HomePageTest"/>
+        </classes>
+    </test>
+    <test name="HeaderSectionTest">
+        <classes>
+            <class name="com.nextWave.MoviesAppTestCases.HeaderSectionTest"/>
+        </classes>
+    </test>
+    <test name="PopularPageTest">
+        <classes>
+            <class name="com.nextWave.MoviesAppTestCases.PopularPageTest"/>
+        </classes>
+    </test>
+    <test name="MovieDetailsPageTest">
+        <classes>
+            <class name="com.nextWave.MoviesAppTestCases.MovieDetailsPageTest"/>
+        </classes>
+    </test>
+    <test name="SearchPageTest">
+        <classes>
+            <class name="com.nextWave.MoviesAppTestCases.SearchPageTest"/>
+        </classes>
+    </test>
+    <test name="AccountPageTest">
+        <classes>
+            <class name="com.nextWave.MoviesAppTestCases.AccountPageTest"/>
+        </classes>
+    </test>
+
+
+</suite>
