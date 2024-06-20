@@ -16,30 +16,7 @@ import pages.PopularPage;
 import java.time.Duration;
 
 public class PopularPageTest extends TestBase {
-//    WebDriver driver;
-//    LoginPage lp;
-//    HeaderPage hd;
-//    PopularPage pp;
-//    @BeforeMethod
-//    public  void setUp(){
-//        driver=new ChromeDriver();
-//        lp=new LoginPage(driver);
-//        hd=new HeaderPage(driver);
-//        pp=new PopularPage(driver);
-//        driver.get("https://qamoviesapp.ccbp.tech");
-//        driver.manage().window().maximize();
-//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-//        lp.login("rahul","rahul@2021");
-//        hd.clickLinkPopular();
-//        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.urlToBe("https://qamoviesapp.ccbp.tech/popular"));
-//        new WebDriverWait(driver,Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//a[@class='link-item']")));
-//    }
-//
-//    @AfterMethod
-//    public  void tearDown(){
-//        driver.quit();
-//    }
-//
+
 
     //Test Popular movie images displayed or not
     @Test(priority = 1)

@@ -16,29 +16,6 @@ import pages.SearchPage;
 import java.time.Duration;
 
 public class SearchPageTest extends TestBase {
-//    WebDriver driver;
-//    LoginPage lp;
-//    HeaderPage hd;
-//    SearchPage sp;
-//    WebDriverWait wait;
-
-//    @BeforeMethod
-//    public void setUp() {
-//        driver = new ChromeDriver();
-//        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//        lp = new LoginPage(driver);
-//        hd = new HeaderPage(driver);
-//        sp = new SearchPage(driver);
-//        driver.get("https://qamoviesapp.ccbp.tech");
-//        driver.manage().window().maximize();
-//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-//        lp.login("rahul", "rahul@2021");
-//    }
-
-//    @AfterMethod
-//    public void tearDown() {
-//        driver.close();
-//    }
 
     //Test the search functionality with "Avatar" movie name
     @Test(priority = 1)

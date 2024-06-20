@@ -15,24 +15,7 @@ import pages.LoginPage;
 import java.time.Duration;
 
 public class HeaderSectionTest extends TestBase {
-    //WebDriver driver;
-   // LoginPage lp;
-    //HeaderPage hd;
 
-   // @BeforeMethod
-   // public void setUp() {
-        //driver = new ChromeDriver();
-        //lp = new LoginPage(driver);
-        //hd = new HeaderPage(driver);
-        //driver.get("https://qamoviesapp.ccbp.tech");
-        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        //lp.login("rahul", "rahul@2021");
-    //}
-
-//    @AfterMethod
-//    public void tearDown() {
-//        driver.quit();
-//    }
 
 
     // Test the Header Section UI

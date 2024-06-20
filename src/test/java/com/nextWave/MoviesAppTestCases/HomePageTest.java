@@ -14,25 +14,7 @@ import java.time.Duration;
 public class HomePageTest extends TestBase {
 
 
-//    WebDriver driver;
-//    LoginPage lp;
-//    HomePage hp;
 
-//    @BeforeMethod
-//    public void setUp() {
-//        driver = new ChromeDriver();
-//        driver.manage().window().maximize();
-//        lp = new LoginPage(driver);
-//        hp = new HomePage(driver);
-//        driver.get("https://qamoviesapp.ccbp.tech");
-//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-//        lp.login("rahul", "rahul@2021");
-//    }
-//
-//    @AfterMethod
-//    public void tearDown() {
-//        driver.quit();
-//    }
 
 
     //Test the heading texts of each section

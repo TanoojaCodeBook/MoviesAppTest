@@ -14,31 +14,6 @@ import pages.*;
 import java.time.Duration;
 
 public class MovieDetailsPageTest extends TestBase {
-//    WebDriver driver;
-//    LoginPage lp;
-//    HomePage hp;
-//    MovieDetailspage mp;
-//    WebDriverWait wait;
-
-//    @BeforeMethod
-//    public void setUp() {
-//        driver = new ChromeDriver();
-//        driver.get("https://qamoviesapp.ccbp.tech");
-//        driver.manage().window().maximize();
-//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-//        lp = new LoginPage(driver);
-//        hp = new HomePage(driver);
-//        mp = new MovieDetailspage(driver);
-//        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//        lp.login("rahul", "rahul@2021");
-//
-//    }
-
-//    @AfterMethod
-//    public void tearDown() {
-//        driver.quit();
-//    }
-
 
     //Test the TrendingNow movie page
     @Test(priority = 1)
